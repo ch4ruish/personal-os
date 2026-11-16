@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Most Goated Webapp</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #0f0f1a 60%, #05050a 100%);
+      color: #f5f5f7;
+      overflow: hidden;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      animation: rise 0.9s ease-out both;
+    }
+
+    .goat {
+      font-size: clamp(4rem, 12vw, 7rem);
+      line-height: 1;
+      filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.6));
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 3.5rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      background: linear-gradient(90deg, #a855f7, #ec4899, #f59e0b, #a855f7);
+      background-size: 300% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: shimmer 6s linear infinite;
+    }
+
+    p {
+      color: #9ca3af;
+      font-size: clamp(0.95rem, 2vw, 1.15rem);
+      max-width: 32rem;
+    }
+
+    .badge {
+      padding: 0.5rem 1.1rem;
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      border-radius: 999px;
+      background: rgba(168, 85, 247, 0.1);
+      color: #d8b4fe;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    @keyframes shimmer {
+      to { background-position: -300% 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .goat, h1, main {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="goat" role="img" aria-label="goat">🐐</div>
+    <span class="badge">Certified Greatest Of All Time</span>
+    <h1>This is the most goated webapp</h1>
+    <p>No frameworks. No build step. Just one file of pure, unfiltered greatness.</p>
+  </main>
+</body>
+</html>
