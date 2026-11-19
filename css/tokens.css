@@ -1,0 +1,143 @@
+/* Personal OS — tokens
+   The Instrument: paper, ink, hairline, one ultramarine signal. */
+
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../assets/fonts/InstrumentSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../assets/fonts/InstrumentSerif-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Mono";
+  src: url("../assets/fonts/DMMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Mono";
+  src: url("../assets/fonts/DMMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* surfaces */
+  --paper: #f2f2ee;
+  --surface: #fafaf7;
+  --sunken: #ecece6;
+  --sunken-2: #e4e4dc;
+  --ink: #121417;
+  --ink-2: #43474e;
+  --ink-3: #6f747c;
+  --ink-4: #9298a0;
+  --line: #deded6;
+  --line-soft: #e8e8e1;
+  --line-strong: #c6c7be;
+
+  /* signal */
+  --accent: #2036d6;
+  --accent-ink: #16259c;
+  --accent-soft: #e6e8fb;
+  --accent-wash: #f0f1fd;
+  --on-accent: #fbfbf9;
+
+  /* semantic, hue-tinted */
+  --positive: #2c6a4f;
+  --positive-soft: #e3efe8;
+  --warning: #8f5a12;
+  --warning-soft: #f5ebdc;
+  --danger: #a63c36;
+  --danger-soft: #f7e5e3;
+
+  /* project hues */
+  --p-cobalt: #2036d6;
+  --p-cobalt-soft: #e7e9fa;
+  --p-teal: #1d6e62;
+  --p-teal-soft: #e2efec;
+  --p-plum: #6d3b63;
+  --p-plum-soft: #f0e7ee;
+  --p-ochre: #96600f;
+  --p-ochre-soft: #f4ebdd;
+  --p-moss: #59662f;
+  --p-moss-soft: #edeee2;
+  --p-slate: #3f4a5a;
+  --p-slate-soft: #e8eaed;
+
+  /* type */
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-ui: "Geist", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "DM Mono", "Cascadia Mono", ui-monospace, monospace;
+
+  --fs-display: 2.5rem;   /* 40 */
+  --fs-title: 1.875rem;   /* 30 */
+  --fs-h2: 1.375rem;      /* 22 */
+  --fs-h3: 0.9375rem;     /* 15 */
+  --fs-body: 0.875rem;    /* 14 */
+  --fs-sm: 0.8125rem;     /* 13 */
+  --fs-xs: 0.75rem;       /* 12 */
+  --fs-micro: 0.65625rem; /* 10.5 */
+
+  /* space */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --page: 36px;
+  --sidebar: 236px;
+  --topbar: 60px;
+
+  /* shape */
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-full: 999px;
+
+  /* elevation — declared once, overlay only */
+  --shadow-pop: 0 12px 32px -12px rgba(18, 20, 23, 0.3), 0 2px 8px rgba(18, 20, 23, 0.05);
+  --shadow-sheet: -18px 0 48px -24px rgba(18, 20, 23, 0.35);
+
+  /* motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --t-fast: 120ms;
+  --t-base: 240ms;
+  --t-slow: 360ms;
+
+  /* layers */
+  --z-sticky: 20;
+  --z-backdrop: 60;
+  --z-sheet: 70;
+  --z-modal: 80;
+  --z-toast: 90;
+  --z-palette: 100;
+}
+
+/* project tint helpers */
+.tone-cobalt { --tone: var(--p-cobalt); --tone-soft: var(--p-cobalt-soft); }
+.tone-teal   { --tone: var(--p-teal);   --tone-soft: var(--p-teal-soft); }
+.tone-plum   { --tone: var(--p-plum);   --tone-soft: var(--p-plum-soft); }
+.tone-ochre  { --tone: var(--p-ochre);  --tone-soft: var(--p-ochre-soft); }
+.tone-moss   { --tone: var(--p-moss);   --tone-soft: var(--p-moss-soft); }
+.tone-slate  { --tone: var(--p-slate);  --tone-soft: var(--p-slate-soft); }
+.tone-accent { --tone: var(--accent);   --tone-soft: var(--accent-soft); }
