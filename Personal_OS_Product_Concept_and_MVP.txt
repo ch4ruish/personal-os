@@ -1,0 +1,523 @@
+PERSONAL OS
+Product Concept, Functionality & MVP Definition
+
+Product category: AI-powered personal productivity system / Second Brain
+Platform: Android app, with a supporting web dashboard
+Core idea: Turn thoughts, intentions and goals into actionable plans, daily tasks and a manageable schedule.
+
+1. PRODUCT OVERVIEW
+
+Personal OS is an AI-powered personal productivity system designed to help people organise their lives, manage responsibilities and follow through on their goals.
+
+It acts as a combination of a Second Brain, AI planner and personal assistant.
+
+Instead of making users manually organise every thought, create every task, estimate every deadline and plan every day, Personal OS helps them do the heavy lifting.
+
+A user should be able to tell the app something as simple as:
+
+"I want to finish my design portfolio in 30 days, learn motion design, apply for internships and complete my branding project."
+
+The app understands these intentions, identifies the different goals, breaks them into smaller tasks, suggests a realistic timeline and organises them into a daily to-do list.
+
+It can also use the user's calendar to understand existing commitments, suggest suitable time slots and send reminders so important tasks don't get lost.
+
+The goal is not to make users more occupied. It is to help them make progress without constantly having to think about what they should do next.
+
+Product philosophy:
+Personal OS doesn't just remember what you want to do. It figures out how you can actually get it done.
+
+2. THE PROBLEM
+
+People often have plenty of goals, ideas and responsibilities, but struggle to convert them into consistent action.
+
+Common problems include:
+- Having too many thoughts and ideas scattered across different apps.
+- Knowing what they want to achieve but not knowing where to start.
+- Feeling overwhelmed by large goals and projects.
+- Spending too much time organising tasks instead of doing them.
+- Forgetting deadlines, small responsibilities and follow-ups.
+- Creating unrealistic daily schedules.
+- Missing tasks and struggling to reorganise the rest of the week.
+- Having to manually move between calendars, notes, reminders and task managers.
+
+Most productivity apps expect users to do the organising themselves. Personal OS should reduce that effort.
+
+3. THE PROPOSED SOLUTION
+
+Personal OS provides one central space where users can capture everything they want to do.
+
+The AI then helps convert that information into a structured system.
+
+The product follows this cycle:
+
+CAPTURE -> UNDERSTAND -> BREAK DOWN -> ORGANISE -> SCHEDULE -> EXECUTE -> TRACK -> ADAPT
+
+Each stage has a specific purpose:
+1. Capture: The user enters an idea, goal, task or responsibility.
+2. Understand: AI identifies what the user is trying to achieve.
+3. Break down: Large goals are divided into smaller, manageable tasks.
+4. Organise: Tasks are grouped into projects, goals and categories.
+5. Schedule: Tasks are distributed across days, considering deadlines and calendar commitments.
+6. Execute: The user follows their daily plan and uses focus tools when needed.
+7. Track: The app records progress and completed tasks.
+8. Adapt: When plans change, the app helps reorganise unfinished work.
+
+The user remains in control throughout the process.
+
+4. HOW THE APP FUNCTIONS
+
+4.1 CAPTURE: THE BRAIN DUMP
+
+The Brain Dump is the main entry point into Personal OS.
+
+Users should not have to decide whether something is a task, project, goal or reminder before entering it. They can simply write what is on their mind.
+
+Examples:
+- Finish my portfolio by December.
+- Learn After Effects.
+- Apply to five internships.
+- Buy groceries tomorrow.
+- Prepare for my literature exam.
+- Start working out regularly.
+
+Input methods:
+- Text input.
+- Voice input.
+- Quick capture.
+- Optional links and attachments in a future version.
+
+The app collects these thoughts in one place.
+
+4.2 UNDERSTAND: AI INTERPRETATION
+
+Once the user submits their brain dump, AI analyses the information.
+
+It identifies:
+- Goals.
+- Projects.
+- Individual tasks.
+- Deadlines and dates.
+- Repeated activities.
+- Dependencies between tasks.
+- Important details that may need clarification.
+
+Example: "I want to complete my portfolio in 30 days."
+
+The app recognises this as a larger goal rather than a single task.
+
+It may ask a clarifying question if essential information is missing. The user can review and edit the AI's interpretation before accepting it.
+
+4.3 BREAK DOWN: TURNING GOALS INTO TASKS
+
+The app automatically divides large goals into smaller, actionable steps.
+
+Example goal: Complete my design portfolio in 30 days.
+
+Week 1 — Preparation
+- Collect previous design projects.
+- Shortlist the strongest projects.
+- Identify missing case studies.
+- Decide the portfolio structure.
+
+Week 2 — Content Development
+- Write project descriptions.
+- Develop case studies.
+- Prepare process documentation.
+- Collect final design assets.
+
+Week 3 — Portfolio Design
+- Design the homepage.
+- Create project pages.
+- Develop the visual system.
+- Review responsive layouts.
+
+Week 4 — Finalisation
+- Proofread content.
+- Test the portfolio.
+- Make final revisions.
+- Publish the portfolio.
+
+Each larger milestone contains smaller tasks.
+
+The AI should suggest:
+- Estimated task duration.
+- Suggested completion date.
+- Priority.
+- Dependencies.
+- Relevant project or goal.
+
+The user should be able to edit the breakdown before it becomes part of their task system.
+
+4.4 ORGANISE: PROJECTS, GOALS AND TASKS
+
+Personal OS should maintain a clear hierarchy.
+
+Goals: What the user wants to achieve.
+Projects: Larger bodies of work associated with a goal or responsibility.
+Tasks: Individual actions required to make progress.
+Habits: Repeated behaviours the user wants to maintain.
+Notes: Information, thoughts and references connected to tasks or projects.
+
+Example:
+
+Goal: Get an internship.
+Project: Internship Applications.
+Tasks:
+- Update resume.
+- Improve portfolio.
+- Research design studios.
+- Shortlist companies.
+- Prepare application emails.
+- Submit applications.
+
+This creates a connected system instead of a disconnected list of tasks.
+
+4.5 SCHEDULE: THE SMART CALENDAR
+
+Once tasks are organised, Personal OS should help the user decide when to complete them.
+
+The app should consider:
+- Task deadlines.
+- Estimated task duration.
+- Existing calendar events.
+- Task priority.
+- Available time.
+- User preferences and working hours.
+
+It should suggest a realistic daily schedule rather than filling every available hour.
+
+Example Tuesday:
+- 9:00–10:00 AM — Portfolio research.
+- 10:30–11:00 AM — Reply to internship emails.
+- 2:00–3:00 PM — Branding project.
+- 5:00–5:30 PM — Motion design practice.
+
+The user can accept, edit or reject the suggested schedule.
+
+Calendar integration should initially read existing events and use them to find available time. Writing events or time blocks into an external calendar should require separate permission and approval.
+
+4.6 EXECUTE: THE DAILY TO-DO LIST
+
+The Today screen is the user's main working space.
+
+Instead of displaying every task they have ever created, it should show what matters today.
+
+It should contain:
+- Today's tasks.
+- Important deadlines.
+- Scheduled time blocks.
+- Upcoming reminders.
+- Goal progress.
+- A simple overview of the day.
+
+The user can:
+- Mark tasks as complete.
+- Change task priorities.
+- Postpone tasks.
+- Open a project.
+- Start a focus session.
+- Ask AI to reorganise the day.
+
+The interface should feel calm and manageable, not like another source of pressure.
+
+4.7 REMINDERS AND NOTIFICATIONS
+
+Personal OS should remind users about important tasks at useful moments.
+
+Examples:
+- Your portfolio case study is scheduled for 4 PM.
+- Your assignment is due tomorrow.
+- You have an unfinished task from today's plan.
+- Your weekly review is ready.
+
+Notifications should be adjustable and non-intrusive. The app should avoid repeatedly notifying users about the same unfinished task.
+
+4.8 TRACK AND ADAPT
+
+Productivity is not always predictable. A user might miss a task, get interrupted or have an unexpected commitment.
+
+Personal OS should help them recover without making them rebuild their schedule manually.
+
+Example: A user planned to complete three tasks today but only finished one.
+
+The app can:
+1. Identify the unfinished tasks.
+2. Check their deadlines and priorities.
+3. Review available time on upcoming days.
+4. Suggest a revised schedule.
+5. Ask the user to approve the changes.
+
+The app should never silently move important deadlines or overwrite the user's plans.
+
+5. CORE USER JOURNEY
+
+Step 1 — Tell the app what you want to do.
+The user enters a goal or brain dump.
+
+Step 2 — AI understands the intention.
+The app identifies goals, projects and tasks.
+
+Step 3 — AI creates a breakdown.
+The user receives smaller tasks, milestones and suggested deadlines.
+
+Step 4 — User reviews the plan.
+They can edit, remove or approve suggestions.
+
+Step 5 — AI organises the schedule.
+Tasks are distributed across available days and time slots.
+
+Step 6 — User follows the daily plan.
+The Today screen becomes the main point of interaction.
+
+Step 7 — The app tracks progress.
+Completed tasks and focus sessions are recorded.
+
+Step 8 — The plan adapts.
+Unfinished tasks can be rescheduled with user approval.
+
+6. MAIN APP SECTIONS
+
+1. Today — Daily dashboard containing tasks, priorities, schedule and progress.
+2. Brain Dump — Quick-capture space for entering thoughts, ideas and goals.
+3. Tasks — Central list of all tasks, with due dates, priorities and filters.
+4. Projects — Space for managing larger bodies of work and their associated tasks.
+5. Goals — Long-term goals, milestones and progress tracking.
+6. Calendar — Daily, weekly and monthly view of commitments and planned tasks.
+7. Notes — Connected knowledge space for storing information and linking it to projects and tasks.
+8. Habits — Simple system for tracking recurring behaviours.
+9. Focus — Timer and focus-session space for working on individual tasks.
+10. Reflection — Weekly overview of completed tasks, habits, focus time and progress.
+
+7. MVP — MINIMUM VIABLE PRODUCT
+
+The MVP should focus on proving one central promise:
+
+Can Personal OS take a user's goal and turn it into a realistic, actionable daily plan?
+
+The first version should not attempt to become an enormous productivity ecosystem. It should solve the most important problem exceptionally well: converting intentions into action.
+
+MVP FEATURE SET
+
+A. Brain Dump and Quick Capture
+- Text-based input.
+- Simple voice-to-text capture if feasible.
+- A central inbox for unprocessed thoughts.
+- Ability to edit or delete captured entries.
+
+B. AI Goal Breakdown
+- Recognise goals and tasks.
+- Convert larger goals into smaller tasks.
+- Suggest milestones.
+- Suggest task durations and deadlines.
+- Allow users to edit the breakdown.
+- Confirm before adding tasks to the system.
+
+C. Task and Project Management
+- Create, edit and complete tasks.
+- Create projects.
+- Assign tasks to projects.
+- Set due dates and priorities.
+- View tasks by project or date.
+
+D. Today Dashboard
+- Display tasks due today.
+- Display overdue tasks.
+- Show upcoming deadlines.
+- Show a simple daily progress indicator.
+- Provide access to the daily plan.
+
+E. Basic AI Daily Planner
+- Generate a suggested daily task list.
+- Prioritise urgent and important tasks.
+- Consider estimated task durations.
+- Allow the user to accept or edit the plan.
+- Provide a non-AI fallback for basic task ordering.
+
+F. Basic Calendar Integration
+- Display existing calendar events.
+- Identify available time.
+- Suggest time blocks for tasks.
+- Allow users to approve suggested blocks.
+
+For the first MVP, external calendar write access can remain optional. The app can show its own planned schedule without automatically creating external calendar events.
+
+G. Basic Reminders
+- Reminders for task deadlines.
+- Notifications for scheduled tasks.
+- User-controlled notification settings.
+
+H. Progress Tracking
+- Mark tasks complete.
+- Show project progress.
+- Track daily completion.
+- Show unfinished tasks.
+
+MVP PRIORITY
+
+P0 — Essential:
+- Brain Dump: captures user intentions.
+- AI Goal Breakdown: core product differentiator.
+- Tasks and Projects: makes plans actionable.
+- Today Dashboard: creates a daily usage loop.
+- AI Daily Planner: converts tasks into a plan.
+
+P1 — Important enhancements:
+- Calendar Read Integration: makes planning more realistic.
+- Reminders: helps users follow through.
+- Progress Tracking: shows whether the system works.
+
+P0 features form the essential MVP. P1 features make it more useful and complete, but can be phased in if development time is limited.
+
+8. FEATURES FOR FUTURE VERSIONS
+
+INTELLIGENT PLANNING
+- Energy-aware scheduling.
+- Adaptive task-duration estimates.
+- Learning from user behaviour.
+- Automatic rescheduling suggestions.
+- Better recovery from missed tasks.
+
+DEEPER SECOND BRAIN
+- Tags and advanced linking.
+- Semantic search.
+- Attachments and reference libraries.
+- Long-term memory and pattern recognition.
+- AI-powered retrieval of relevant notes.
+
+ADVANCED CALENDAR
+- Two-way calendar integration.
+- Creating and editing calendar events.
+- Automatic time-block adjustments.
+- Recurring task scheduling.
+
+ADVANCED AI ASSISTANT
+- Natural-language conversations.
+- Multi-step planning.
+- Context-aware suggestions.
+- Weekly and monthly planning.
+- Personal productivity insights.
+
+MULTI-PLATFORM EXPERIENCE
+- Full web dashboard with editing.
+- Cross-device task management.
+- Improved voice capture.
+
+9. EXISTING SYSTEM VS PROPOSED PRODUCT
+
+The existing Personal OS foundation already contains several important capabilities.
+
+ALREADY IMPLEMENTED OR PARTIALLY IMPLEMENTED
+- Task creation, editing and completion.
+- Projects and goal tracking.
+- Habits and streaks.
+- Today view.
+- Deterministic and AI-assisted planning.
+- Focus sessions and a 25-minute Pomodoro timer.
+- Task and habit reminders.
+- Notes linked to projects and tasks.
+- Search across tasks, notes, projects and habits.
+- Offline-first data storage and background synchronisation.
+- Encrypted export and restore.
+- Read-only calendar integration.
+- Read-only web dashboard.
+
+IMPORTANT GAPS RELATIVE TO THE PROPOSED PRODUCT
+- AI-classified brain dump inbox.
+- Automatic goal-to-subtask breakdown.
+- Task dependencies.
+- Capacity-aware scheduling.
+- Adaptive task estimates.
+- Missed-task recovery and plan revision.
+- Calendar write access.
+- Full web editing.
+- Advanced knowledge organisation and semantic search.
+
+This means the project does not need to start from zero. It can build on an existing technical foundation while prioritising the new experience that makes it different.
+
+10. PRODUCT PRINCIPLES
+
+1. Reduce cognitive load.
+Users should not have to spend more time organising their lives than living them.
+
+2. AI assists, the user decides.
+AI-generated plans should always be editable and require approval before consequential changes.
+
+3. Realistic over ambitious.
+The app should create manageable schedules rather than unrealistic, overfilled days.
+
+4. Progress over perfection.
+Missing a task should lead to a better plan, not guilt or punishment.
+
+5. One connected system.
+Tasks, projects, goals, notes and calendar information should work together.
+
+6. Privacy and reliability.
+Personal information should be handled carefully. Essential functionality should remain available offline wherever possible.
+
+7. Simple by default.
+The interface should reveal complexity only when the user needs it.
+
+11. EXAMPLE OF THE COMPLETE EXPERIENCE
+
+Imagine a student opening Personal OS on Monday morning.
+
+They type:
+
+"I have to finish my portfolio this month, prepare for two exams, learn motion design and apply for internships."
+
+The app analyses the input.
+
+It identifies four larger goals:
+- Finish portfolio.
+- Prepare for exams.
+- Learn motion design.
+- Apply for internships.
+
+It then creates projects and breaks the goals into smaller tasks.
+
+The user reviews and approves the breakdown.
+
+Personal OS checks existing calendar commitments and suggests a schedule for the week.
+
+On Monday, the Today screen shows:
+- Collect portfolio projects.
+- Study English poetry for one hour.
+- Research three internship opportunities.
+
+The user completes two tasks but misses the third.
+
+Instead of leaving the task buried in yesterday's list, Personal OS offers to move it to a suitable upcoming slot.
+
+By the end of the week, the user can see what has been completed, what remains and how much progress has been made.
+
+The experience should feel like having a personal assistant who remembers the bigger picture while helping with the next small step.
+
+12. HOW SUCCESS SHOULD BE MEASURED
+
+The MVP should be evaluated on whether it genuinely reduces the effort required to plan and complete work.
+
+Suggested success metrics:
+- Time taken to convert a brain dump into an approved plan.
+- Percentage of AI-generated tasks accepted or edited.
+- Percentage of planned tasks completed.
+- Number of users who return to the Today screen.
+- Number of goals successfully broken into tasks.
+- Frequency of schedule adjustments.
+- User satisfaction with the realism of daily plans.
+
+The most important question is:
+
+Does the app help users move from "I need to do this" to "I know what to do next"?
+
+13. FINAL PRODUCT DEFINITION
+
+Personal OS is a private, AI-powered Second Brain and personal productivity system that transforms unstructured thoughts, goals and responsibilities into organised projects, actionable tasks and realistic daily schedules.
+
+It combines goal management, task planning, calendar awareness, reminders and progress tracking in one connected experience.
+
+Its primary value is not simply storing information or managing to-do lists.
+
+It is helping people understand what they want to achieve, figure out the steps required and consistently make progress.
+
+PERSONAL OS
+Think less about organising. Do more of what matters.
